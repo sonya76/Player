@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../font/Poppins-Regular.ttf);
+}
+body{
+    margin: 0;
+}
+#menuPrincipal, #navPrincipal{
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.075);
+     align-items: center;
+}
+#menuPrincipal{
+   border: rgba(76, 0, 255, 0.014) 1px solid;
+   margin: 0;
+   padding: 0;
+  
+}
+#menuPrincipal>li{
+    list-style: none;
+    margin: 0.5rem;
+}
+.fa-compact-disc{
+    padding: 0 1rem 0 1rem;
+    color: rgb(107, 43, 226);
+}
+#menuPrincipal a{
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(55, 43, 226);
+}

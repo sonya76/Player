@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+  </head>
+  <body>
+    <header>
+      <nav id="navPrincipal">
+        <i class="fa-solid fa-compact-disc fa-xl"></i>
+        <ul id="menuPrincipal">
+            <li><a href="./index.html">Player</a></li>
+            <li><a href="./form.html">Formulaire</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="" method="post">
+        <div class="form-group"> 
+          <label for="mp3">Télécharger votre mp3 </label>
+          <input type="file" id="mp3" name="mp3">
+        </div>
+        <div class="form-group">
+          <label for="cover">Télécharger l'image </label>
+          <input type="file" id="cover" name="cover"></div>
+        <div class="form-group">  
+          <label for="title">Titre</label>
+          <input type="text" name="title" placeholder="Titre du morceau">
+        </div>
+        <div class="form-group">
+          <label for="artiste">Artiste</label>
+          <input type="text" name="artiste" placeholder="Artiste">
+        </div>
+        <div class="form-group">
+          <label for="genre">Genre</label>
+          <input type="radio" name="genre"><label for="genre">HipHop</label>
+          <input type="radio" name="genre"><label for="genre">Jazz</label>
+          <input type="radio" name="genre"><label for="genre">Rock</label>
+        </div>
+        <div class="form-group">
+          <select for="annee" >Année</select>
+    
+        </div>
+        <div class="form-group">
+          <label for="desc">Description</label>
+         <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Description"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="Prix">Prix</label>
+          <input type="number" name="prix" id="prix">
+        </div>
+        <div class="form-group">
+        <input type="submit" value="Envoyer" id="submit">
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
